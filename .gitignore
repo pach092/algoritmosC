@@ -41,6 +41,12 @@
 *.su
 *.idb
 *.pdb
+*.ilc
+*.ild
+*.ilf
+*.ils
+*.tds
+*.csm
 
 # Kernel Module Compile Results
 *.mod*
