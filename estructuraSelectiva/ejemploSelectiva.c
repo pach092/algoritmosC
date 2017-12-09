@@ -22,7 +22,7 @@ void main(){
         printf("a puede ser cualquier otro numero diferente de 0");
     }
 */
-
+/*
     int a, b, c, d;
 
     scanf("%d", &a);
@@ -38,5 +38,25 @@ void main(){
         printf("a es mayor que d\n");
     } else{
         printf("a no es mayor que b, c o d\n");
+    }
+*/
+
+    int x, a, b, c, d;
+
+    scanf("%d", &x);
+
+    switch(x){
+        case 1:
+            printf("Se cumplio el caso 1\n");
+            break;
+        case 2:
+            printf("Se cumplio el caso 2\n");
+            break;
+        case 3:
+            printf("Se cumplio el caso 3\n");
+            break;
+        default:
+            printf("No se cumplio ninguno de los casos previos\n");
+            break;
     }
 }
